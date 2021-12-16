@@ -1,0 +1,259 @@
+a {
+  text-decoration: none;
+  color: #1b1b1b;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  position: relative;
+  display: inline-block;
+  padding: 0 55px;
+}
+
+h1:before,
+h1:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 45px;
+  height: 1px;
+  background-color: black;
+}
+
+h1:before {
+  left: 0;
+}
+
+h1:after {
+  right: 0;
+}
+
+/* ============================
+   body
+  ============================== */
+body {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #e9e9e9;
+  font-family: Gill Sans;
+  color: #1b1b1b;
+  letter-spacing: 3px;
+}
+
+/* ============================
+ header
+============================== */
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 25px;
+}
+
+header .header-title {
+  font-size: 30px;
+  font-weight: lighter;
+  color: red;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav ul li {
+  padding: 4px;
+  margin-left: 10px;
+}
+
+header nav ul li:hover {
+  background-color: #fff;
+}
+
+/* ============================
+ first-view
+============================== */
+.first-view {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 50px;
+}
+
+.first-view img {
+  width: 100%;
+  height: 100%;
+}
+
+/* ============================
+ main
+============================== */
+main {
+  width: 95%;
+  margin: 50px auto;
+}
+
+main section {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+main section .section-title h1 {
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+main section .service-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main section .service-contents .service-item {
+  width: 30%;
+  text-align: center;
+  padding: 3px 15px;
+  -webkit-box-shadow: 0 2px 5px #ccc;
+          box-shadow: 0 2px 5px #ccc;
+}
+
+main section .service-contents .service-item .service-item-title {
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+main section .service-contents .service-item .service-item-subtitle {
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+main section .service-contents .service-item .service-item-img {
+  margin: 50px 0px;
+}
+
+main section .service-contents .service-item .service-item-img img {
+  width: 50%;
+}
+
+main section .works-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main section .works-contents .works-item {
+  width: 30%;
+  margin-bottom: 50px;
+}
+
+main section .works-contents .works-item img {
+  width: 100%;
+}
+
+main section .works-contents .works-item img:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+main section .works-contents .work-view-more {
+  margin: 0 auto;
+  letter-spacing: 6px;
+  padding: 5px;
+  border-bottom: solid 1px #1b1b1b;
+}
+
+main section .works-contents .work-view-more:hover {
+  background-color: #bebebe;
+}
+
+main section .career-contents {
+  margin: 100px 0 0 20px;
+}
+
+main section .career-contents p {
+  margin-bottom: 30px;
+}
+
+form {
+  margin-left: 30px;
+}
+
+form ul li {
+  margin-bottom: 10px;
+}
+
+form ul li input {
+  padding: 10px;
+  width: 250px;
+  font-size: 16px;
+}
+
+form ul li textarea {
+  padding: 10px;
+  width: 400px;
+  font-size: 16px;
+}
+
+form button {
+  padding: 15px 50px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #818181;
+  border: none;
+  outline: none;
+}
+
+form button:hover {
+  cursor: pointer;
+  background-color: #5a5a5a;
+}
+
+/* ============================
+ footer
+============================== */
+footer {
+  width: 100%;
+}
+
+footer .footer-top {
+  border-bottom: solid 2px #9c9a9a;
+}
+
+footer .footer-top nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer-top nav ul li {
+  margin-left: 30px;
+}
+
+footer .footer-bottom p {
+  text-align: right;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=layout.css.map */
